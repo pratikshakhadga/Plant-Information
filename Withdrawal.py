@@ -1,0 +1,10 @@
+number = str(input("Enter your account number: "))
+name = str(input("Enter your account holder name: "))
+balance1 = float(input("Enter your balance: "))
+amount = float(input("Enter amount to be withdrew: "))
+withdraw = balance1 - amount
+print("Account Number: ",number)
+print("Account Holder Name: ",name)
+print("Balance: Rs.",balance1)
+print("Withdrew: Rs.",amount)
+print("Amount after withdrawal: Rs.",withdraw)

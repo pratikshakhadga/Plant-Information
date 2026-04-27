@@ -1,0 +1,10 @@
+number = str(input("Enter your account number: "))
+name = str(input("Enter your account holder name: "))
+balance1 = float(input("Enter your balance: "))
+amount = float(input("Enter amount to be deposited: "))
+deposit = balance1 + amount
+print("Account Number: ",number)
+print("Account Holder Name: ",name)
+print("Balance: Rs.",balance1)
+print("Deposited: Rs.",amount)
+print("Amount after deposit: Rs.",deposit)
